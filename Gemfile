@@ -13,6 +13,8 @@ gem 'bootstrap-sass'
 
 gem 'aws-sdk-rails', '~> 1.0'
 
+gem "passenger", require: "phusion_passenger/rack_handler"
+
 group :doc do
   gem 'sdoc', '~> 0.4.0'
 end
