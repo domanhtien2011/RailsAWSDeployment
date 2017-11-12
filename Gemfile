@@ -15,6 +15,8 @@ gem 'aws-sdk-rails', '~> 1.0'
 
 gem "passenger", require: "phusion_passenger/rack_handler"
 
+gem 'sqlite3'
+
 group :doc do
   gem 'sdoc', '~> 0.4.0'
 end
@@ -23,7 +25,6 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'sqlite3'
   gem 'autotest-rails'
   gem 'capybara'
   gem 'shoulda'
